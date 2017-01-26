@@ -1,0 +1,709 @@
+[
+    {
+        "key": "group_5794e75f9f74c",
+        "title": "Event Specifics",
+        "fields": [
+            {
+                "key": "field_57992899fd7a3",
+                "label": "AcademicYear|Term",
+                "name": "academicyearterm",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5794e81bc5c95",
+                "label": "DateStart",
+                "name": "datestart",
+                "type": "date_picker",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 50,
+                    "class": "",
+                    "id": ""
+                },
+                "display_format": "F j, Y",
+                "return_format": "F j, Y",
+                "first_day": 0
+            },
+            {
+                "key": "field_5799261c83cfe",
+                "label": "DateEnd",
+                "name": "dateend",
+                "type": "date_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 50,
+                    "class": "",
+                    "id": ""
+                },
+                "display_format": "F j, Y",
+                "return_format": "F j, Y",
+                "first_day": 0
+            },
+            {
+                "key": "field_579925b9e69e6",
+                "label": "TimeStart",
+                "name": "timestart",
+                "type": "time_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 50,
+                    "class": "",
+                    "id": ""
+                },
+                "display_format": "g:i a",
+                "return_format": "g:i a"
+            },
+            {
+                "key": "field_579925ede69e7",
+                "label": "TimeEnd",
+                "name": "timeend",
+                "type": "time_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 50,
+                    "class": "",
+                    "id": ""
+                },
+                "display_format": "g:i a",
+                "return_format": "g:i a"
+            },
+            {
+                "key": "field_57997bc10095f",
+                "label": "Gallery",
+                "name": "gallery",
+                "type": "gallery",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "min": "",
+                "max": "",
+                "preview_size": "thumbnail",
+                "insert": "append",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "event"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "seamless",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    },
+    {
+        "key": "group_577a86b9aeab4-2",
+        "title": "Faculty Specifics",
+        "fields": [
+            {
+                "key": "field_5778f66f7c274",
+                "label": "Field",
+                "name": "field",
+                "type": "repeater",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": "",
+                "max": "",
+                "layout": "table",
+                "button_label": "Add Row",
+                "sub_fields": [
+                    {
+                        "key": "field_577db8def4dff",
+                        "label": "research",
+                        "name": "research",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    }
+                ]
+            },
+            {
+                "key": "field_5778f6787c275",
+                "label": "Rank",
+                "name": "rank",
+                "type": "select",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Associate Professor": "Associate Professor",
+                    "Assistant Professor": "Assistant Professor"
+                },
+                "default_value": {
+                    "": ""
+                },
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": "",
+                "disabled": 0,
+                "readonly": 0
+            },
+            {
+                "key": "field_5889a1f84ca2e",
+                "label": "Email",
+                "name": "email",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_category",
+                    "operator": "==",
+                    "value": "category:faculty"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "seamless",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    },
+    {
+        "key": "group_577a86b9bb131-2",
+        "title": "Paper Specifics",
+        "fields": [
+            {
+                "key": "field_5778f7abab84f",
+                "label": "Link",
+                "name": "link",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "formatting": "html",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "papers"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "seamless",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [],
+        "active": 1,
+        "description": "",
+        "old_ID": 128,
+        "local": "php"
+    },
+    {
+        "key": "group_577a86b9c0de1",
+        "title": "Project Specifics",
+        "fields": [
+            {
+                "key": "field_5778caf9f40ce",
+                "label": "Timeline",
+                "name": "timeline",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": "",
+                "max": "",
+                "layout": "table",
+                "button_label": "Add Row",
+                "sub_fields": [
+                    {
+                        "key": "field_577a88c4cb88f",
+                        "label": "Date",
+                        "name": "date",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_577a890ccb890",
+                        "label": "Checkpoint",
+                        "name": "checkpoint",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_5879c544faf10",
+                        "label": "Link",
+                        "name": "link",
+                        "type": "text",
+                        "instructions": "",
+                        "required": "",
+                        "conditional_logic": "",
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_587a0f791d6bf",
+                        "label": "info",
+                        "name": "info",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    }
+                ]
+            },
+            {
+                "key": "field_5778d6b3c09a6",
+                "label": "Status",
+                "name": "status",
+                "type": "select",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Maintenance": "Maintenance",
+                    "For Publishing": "For Publishing",
+                    "On Hold": "On Hold",
+                    "Active": "Active",
+                    "Stopped": "Stopped",
+                    "Proposed": "Proposed"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": "",
+                "disabled": 0,
+                "readonly": 0
+            },
+            {
+                "key": "field_5882bb00db154",
+                "label": "Nature",
+                "name": "nature",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "project"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "seamless",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    },
+    {
+        "key": "group_577a86b9cba3c-2",
+        "title": "Student Specifics",
+        "fields": [
+            {
+                "key": "field_5778f62cc26c3",
+                "label": "Batch",
+                "name": "batch",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "formatting": "html",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5778f637c26c4",
+                "label": "Degree",
+                "name": "degree",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "formatting": "html",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_587aec07ca57e",
+                "label": "Email",
+                "name": "email",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5889b1067f5b2",
+                "label": "Recent Projects",
+                "name": "recent_projects",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": "",
+                "max": "",
+                "layout": "table",
+                "button_label": "Add Row",
+                "sub_fields": [
+                    {
+                        "key": "field_5889b1931cad2",
+                        "label": "Project Title",
+                        "name": "project_title",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_5889b1a61cad3",
+                        "label": "Role",
+                        "name": "role",
+                        "type": "select",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "Team Lead": "Team Lead",
+                            "Mentor": "Mentor",
+                            "Designer": "Designer",
+                            "Programmer": "Programmer",
+                            "Research Assistant": "Research Assistant",
+                            "Analyst": "Analyst",
+                            "Quality Assurance": "Quality Assurance",
+                            "Developer": "Developer",
+                            "Junior Researcher": "Junior Researcher"
+                        },
+                        "default_value": [],
+                        "allow_null": 0,
+                        "multiple": 0,
+                        "ui": 0,
+                        "ajax": 0,
+                        "placeholder": "",
+                        "disabled": 0,
+                        "readonly": 0
+                    },
+                    {
+                        "key": "field_5889b1b51cad4",
+                        "label": "Permalink",
+                        "name": "permalink",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_category",
+                    "operator": "==",
+                    "value": "category:alumni"
+                }
+            ],
+            [
+                {
+                    "param": "post_category",
+                    "operator": "==",
+                    "value": "category:cohorts"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "seamless",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    },
+    {
+        "key": "group_579988e5e06e6-2",
+        "title": "Updates Specifics",
+        "fields": [
+            {
+                "key": "field_579988f8aa719",
+                "label": "Date",
+                "name": "date",
+                "type": "date_picker",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "display_format": "F j, Y",
+                "return_format": "F j, Y",
+                "first_day": 1
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "updates"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    }
+]
